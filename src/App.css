@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+#app header{
+  margin-bottom: 2px;
+  /* padding: 5px 5px; */
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* background: fixed; */
+  background-color: #333;
+  max-width: 100%;
+  height: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+#app header .profilePic{
+  margin-left: 20px;
+  margin-top: 5px;
+  background-color: aliceblue;
+  width: 50px;
+  height: 50px;
+  border: none;
+  border-radius: 50px 50px 50px 50px;
+  float: left;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#app header .profilePic .profileDefaultIcon{
+  height: 30px;
+  margin-left: 12px;
+  margin-top: 10px;
+}
+
+#app header .profileName{
+  margin-left: 15px;
+  margin-top: 15px;
+  color: aliceblue;
+  font-style: normal;
+  float: left;
+
+}
+
+#app header .settings .settingsIcon{
+  height: 30px;
+  margin-top: 15px;
+  margin-right: 25px;
+  float: inline-end;
+  color: aliceblue;
+}
+
+
+
+#app aside{
+  background-color: aquamarine;
+  width: 400px;
+  height: 800px;
+}
+
+#app aside .titleChats{
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+#app aside input{
+  margin-top: 5px;
+  margin-left: 15px;
+  height: 25px;
+  width: 280px;
+  padding: 10px;
+  border: 1px;
+  border-radius: 5px;
+}
+
+#app aside .friend{
+  background-color: antiquewhite;
+  height: 60px;
+  width: 380px;
+  margin-left: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
 }
