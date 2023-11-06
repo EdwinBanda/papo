@@ -3,6 +3,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { faBars, faUser } from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 
+import SideBarChat from './Components/sideBarChat';
+
 library.add(faBars, faUser);
 
 function App() {
@@ -23,10 +25,16 @@ function App() {
             <h1>Conversas</h1>
           </div>
           <input type='search' placeholder='Search'/>
-          <div className='friend'>
-            <div className='friendIcon'></div>
-            <div className='friendName'></div>
-          </div>
+          <br/>
+          
+          
+          <SideBarChat></SideBarChat>
+          <SideBarChat></SideBarChat>
+          <SideBarChat></SideBarChat>
+          <SideBarChat></SideBarChat>
+          <SideBarChat></SideBarChat>
+          <SideBarChat></SideBarChat>
+          <SideBarChat></SideBarChat>
         </div>
       </aside>
     </div>

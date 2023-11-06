@@ -5,7 +5,7 @@
   /* padding: 5px 5px; */
   align-items: center;
   /* background: fixed; */
-  background-color: #333;
+  background-color: #003366;
   max-width: 100%;
   height: 60px;
 }
@@ -30,7 +30,7 @@
 #app header .profileName{
   margin-left: 15px;
   margin-top: 15px;
-  color: aliceblue;
+  color: #FFFFFF;
   font-style: normal;
   float: left;
 
@@ -47,7 +47,7 @@
 
 
 #app aside{
-  background-color: aquamarine;
+  background-color: #E0E0E0;
   width: 400px;
   height: 800px;
 }
@@ -59,19 +59,35 @@
 
 #app aside input{
   margin-top: 5px;
-  margin-left: 15px;
+  margin-left: 11px;
   height: 25px;
   width: 280px;
   padding: 10px;
   border: 1px;
   border-radius: 5px;
+  display: flex;
 }
 
 #app aside .friend{
-  background-color: antiquewhite;
+  background-color: #FFF;
   height: 60px;
   width: 380px;
   margin-left: 10px;
   margin-top: 5px;
   border-radius: 5px;
+}
+
+#app aside .friend .chatProfileDefaultIcon{
+  height: 30px;
+  margin-left: 12px;
+  margin-top: 14px;
+  float: left;
+}
+
+#app aside .friend .friendName{
+  margin-left: 15px;
+  margin-top: 15px;
+  color: #121212;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  float: left;
 }
